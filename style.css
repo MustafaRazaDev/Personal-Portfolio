@@ -1,0 +1,88 @@
+@font-face {
+  font-family: Roboto;
+  src: url(fonts/RobotoSlab-Regular.ttf);
+}
+@font-face {
+  font-family: Heebo;
+  src: url(fonts/Heebo-Regular.ttf);
+}
+@font-face {
+  font-family: Kanit;
+  src: url(fonts/Kanit-Regular.ttf);
+}
+@font-face {
+  font-family: poppins;
+  src: url(fonts/Poppins-Medium.ttf);
+}
+.navLogo {
+  position: fixed;
+  top: 0vh;
+  left: 0%;
+  width: 100%;
+  padding: 0.5%;
+  padding-top: 0.5;
+  padding-left: 10%;
+  padding-right: 15%;
+  z-index: var(--z-fixed);
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(146, 161, 176, 0.15) 0px 1px 4px;
+}
+.navLogo h1 {
+  height: 0vh;
+  margin: 0%;
+  font-family: Poppins;
+  font-size: 4vh;
+}
+.nav-link:hover {
+  /* border: 0.2vh solid rgb(0, 0, 255); */
+  border-radius: 1vh;
+  box-shadow: 0px 0px 40px 0px rgb(200, 200, 200);
+}
+.nav-link {
+  font-family: Heebo;
+  margin-left: 5%;
+  color: black !important;
+  font-size: 2.5vh;
+}
+.toggelHeading {
+  color: black;
+  font-family: poppins;
+}
+#toggleBar {
+  display: none;
+  box-shadow: rgba(146, 161, 176, 0.15) 0px 1px 4px;
+}
+@media screen and (max-width: 600px) {
+  body {
+    margin: 0%;
+  }
+  .nav {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+  .nav-link:hover {
+    border: none;
+    border-radius: 0%;
+    border-bottom: 0.2vh solid rgb(0, 0, 255);
+    box-shadow: none;
+  }
+  #toggleMenu {
+    margin: -5%;
+  }
+  #toggleBar {
+    display: block;
+  }
+  .navLogo {
+    display: none;
+  }
+  .nav-link {
+    color: white !important;
+  }
+  li {
+    display: block !important;
+  }
+  #navMenu {
+    display: none;
+  }
+}

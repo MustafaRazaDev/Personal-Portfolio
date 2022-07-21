@@ -1,0 +1,186 @@
+@font-face {
+  font-family: Roboto;
+  src: url(fonts/RobotoSlab-Regular.ttf);
+}
+@font-face {
+  font-family: Heebo;
+  src: url(fonts/Heebo-Regular.ttf);
+}
+@font-face {
+  font-family: Kanit;
+  src: url(fonts/Kanit-Regular.ttf);
+}
+@font-face {
+  font-family: poppins;
+  src: url(fonts/Poppins-Medium.ttf);
+}
+@font-face {
+  font-family: poppinsbold;
+  src: url(fonts/Poppins-Bold.ttf);
+}
+.navLogo {
+  position: fixed;
+  top: 0vh;
+  left: 0%;
+  width: 100%;
+  padding: 0.5%;
+  padding-top: 0.5;
+  padding-left: 10%;
+  padding-right: 15%;
+  z-index: var(--z-fixed);
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(146, 161, 176, 0.15) 0px 1px 4px;
+}
+.navLogo h1 {
+  height: 0vh;
+  margin: 0%;
+  font-family: Poppins;
+  font-size: 4vh;
+}
+.nav-link:hover {
+  /* border: 0.2vh solid rgb(0, 0, 255); */
+  border-radius: 1vh;
+  box-shadow: 0px 0px 40px 0px rgb(200, 200, 200);
+}
+.nav-link {
+  font-family: Heebo;
+  margin-left: 5%;
+  color: black !important;
+  font-size: 2.5vh;
+}
+.toggelHeading {
+  color: black;
+  font-family: poppins;
+}
+#toggleBar {
+  display: none;
+  box-shadow: rgba(146, 161, 176, 0.15) 0px 1px 4px;
+}
+.home h1{
+  font-family: poppins;
+  color: rgb(0, 0, 61);
+  font-size: 7vh;
+  line-height: 10vh;
+  display: inline;
+  float: left;
+  margin-top: 5%;
+}
+.home p{
+  font-family: roboto;
+  font-size: 2.5vh;
+  width: 40%;
+  color: rgb(98, 98, 98);
+}
+.home{
+  margin: 5% 10%; 
+}
+.homeProfilelogo img{
+  float: right;
+  width: 50%;
+  object-fit: cover;
+  height: 55vh;
+  display: flex;
+  float: right;
+  position: relative;
+  top: -40vh;
+}
+.homeTitle b{
+  color: blue;
+}
+.links{
+  display: flex;
+  justify-content: space-evenly;
+  width: 30%;
+  margin-top: 2%;
+}
+.links img{
+  height: 6vh;
+  object-fit: cover;
+}
+.links img:hover{
+  filter: grayscale(1);
+}
+#contactButton{
+  font-size: 2.5vh;
+  font-family: 'poppins';
+  background-color: purple;
+  color: white;
+  margin-top: 2%;
+  border: none;
+}
+#contactButton:hover{
+  color: purple;
+  border: 0.2vh solid purple;
+  background-color: white;
+}
+@media screen and (max-width: 600px) {
+  body {
+    margin: 0%;
+  }
+  .home h1{
+    font-size: 4vh;
+    line-height: 6vh;
+    width: 100%;
+  }
+  .home{
+    margin: 6%;
+  }
+  .nav {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+  .navbar{
+    padding: 5%;
+  }
+  .nav-link:hover {
+    border: none;
+    border-radius: 0%;
+    border-bottom: 0.2vh solid rgb(0, 0, 255);
+    box-shadow: none;
+  }
+  #toggleMenu {
+    margin: -3%;
+  }
+  #toggleBar {
+    display: block;
+  }
+  .navLogo {
+    display: none;
+  }
+  .nav-link {
+    color: white !important;
+    margin-left: 0%;
+  }
+  li {
+    display: block !important;
+  }
+  #navMenu {
+    display: none;
+  }
+  .home p{
+    font-size: 2vh;
+    width: 95%;
+  }
+  .homeProfilelogo img{
+    width: 100%;
+    height: 30vh;
+    margin-bottom: 5%;
+    float: unset;
+    object-fit: cover;
+    position: relative;
+    top: 0vh;
+  }
+  .links img{
+    height: 5vh;
+  }
+  .links{
+    width: 100%;
+    margin: 0%;
+  }
+  #contactButton{
+    margin: auto;
+    margin-top: 10%;
+    display: flex ;
+  }
+}
