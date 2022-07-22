@@ -18,6 +18,10 @@
   font-family: poppinsbold;
   src: url(fonts/Poppins-Bold.ttf);
 }
+@font-face {
+  font-family: montserrat;
+  src: url(fonts/Montserrat-Light.ttf);
+}
 .navLogo {
   position: fixed;
   top: 0vh;
@@ -68,7 +72,7 @@
 .home p{
   font-family: roboto;
   font-size: 2.5vh;
-  width: 40%;
+  width: 36%;
   color: rgb(98, 98, 98);
 }
 .home{
@@ -83,6 +87,7 @@
   float: right;
   position: relative;
   top: -40vh;
+  margin-top: 2%;
 }
 .homeTitle b{
   color: blue;
@@ -103,15 +108,74 @@
 #contactButton{
   font-size: 2.5vh;
   font-family: 'poppins';
-  background-color: purple;
+  background-color: #5371ff;
   color: white;
   margin-top: 2%;
   border: none;
 }
 #contactButton:hover{
-  color: purple;
-  border: 0.2vh solid purple;
+  color: #5371ff;
+  border: 0.2vh solid #5371ff;
   background-color: white;
+}
+.skill{
+  margin: 5% 10%;
+  display: flex;
+  flex-direction: row-reverse;
+  height: 35vh;
+  width: 80%;
+  position: relative;
+  top: -25vh;
+  justify-content: space-between;
+}
+.skillDetail{
+  width: 100%;
+}
+.skillImg{
+  width: 80%;
+}
+.skillImg img{
+  height: auto;
+  width: 80%;
+  border-radius: 2vh;
+  object-fit: cover;
+}
+.skillDetail h1{
+  font-family: poppins;
+} 
+.skillDetail p{
+  font-family: roboto;
+  font-size: 2vh;
+  width: 100%;
+  color: rgb(98, 98, 98);
+} 
+.skillDetail img{
+  height: 6vh;
+}
+.skillDetail li img:hover{
+  filter: invert(40%) 
+  sepia(25%) 
+  saturate(2824%) 
+  hue-rotate(206deg) 
+  brightness(103%) 
+  contrast(101%);
+}
+.skillDetail li{
+  list-style: none;
+  display: inline-block;
+  margin: 1%;
+  font-family: poppins;
+  text-align: center;
+}
+.skillDetail h2{
+  font-family: montserrat;
+  font-size: 2.2vh;
+  width: 100%;
+  margin: 2% 0%;
+  color: rgb(98, 98, 98);
+}
+.skillDetail h2 img{
+  height: 4vh;
 }
 @media screen and (max-width: 600px) {
   body {
@@ -182,5 +246,34 @@
     margin: auto;
     margin-top: 10%;
     display: flex ;
+  }
+  .skill{
+    position: relative;
+    top: 0%;
+    display: block;
+    margin-top: 10vh;
+  }
+  .skill li{
+    margin-right: 8%;
+  }
+  .skillDetail ul{
+    width: 100%;
+    height: 30vh;
+    margin: 5% auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+  }
+  .skillImg{
+    width: 100%;
+  }
+  .skillImg img{
+    height: auto;
+    width: 100%;
+    margin: 10% 0%;
+    border-radius: 2vh;
+    object-fit: cover;
   }
 }
