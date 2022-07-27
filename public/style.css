@@ -26,7 +26,7 @@
   font-family: montserratMedium;
   src: url(fonts/Montserrat-Medium.ttf);
 }
-body{
+body {
   margin: 0%;
   background-color: white;
 }
@@ -53,7 +53,7 @@ body{
   background-color: rgb(245, 245, 245);
 }
 .nav-link {
-  font-family: montserratMedium;  
+  font-family: montserratMedium;
   margin-left: 5%;
   color: black !important;
   font-size: 2.5vh;
@@ -69,7 +69,7 @@ body{
   display: none;
   box-shadow: rgba(146, 161, 176, 0.15) 0px 1px 4px;
 }
-.home h1{
+.home h1 {
   font-family: poppins;
   color: rgb(0, 0, 61);
   font-size: 7vh;
@@ -78,16 +78,16 @@ body{
   float: left;
   margin-top: 5%;
 }
-.home p{
+.home p {
   font-family: roboto;
   font-size: 2.5vh;
   width: 36%;
   color: rgb(98, 98, 98);
 }
-.home{
-  margin: 5% 10%; 
+.home {
+  margin: 5% 10%;
 }
-.homeProfilelogo img{
+.homeProfilelogo img {
   float: right;
   width: 50%;
   object-fit: cover;
@@ -98,36 +98,36 @@ body{
   top: -40vh;
   margin-top: 2%;
 }
-.homeTitle b{
+.homeTitle b {
   color: blue;
 }
-.links{
+.links {
   display: flex;
   justify-content: space-evenly;
   width: 30%;
   margin-top: 2%;
 }
-.links img{
+.links img {
   height: 6vh;
   object-fit: cover;
 }
-.links img:hover{
+.links img:hover {
   filter: grayscale(1);
 }
-#contactButton{
+#contactButton {
   font-size: 2.5vh;
-  font-family: 'poppins';
+  font-family: "poppins";
   background-color: #5371ff;
   color: white;
   margin-top: 2%;
   border: none;
 }
-#contactButton:hover{
+#contactButton:hover {
   color: #5371ff;
   border: 0.2vh solid #5371ff;
   background-color: white;
 }
-.skill{
+.skill {
   margin: 5% 10%;
   display: flex;
   flex-direction: row-reverse;
@@ -137,39 +137,35 @@ body{
   top: -25vh;
   justify-content: space-between;
 }
-.skillDetail{
+.skillDetail {
   width: 100%;
 }
-.skillImg{
+.skillImg {
   width: 80%;
 }
-.skillImg img{
+.skillImg img {
   height: auto;
   width: 80%;
   border-radius: 2vh;
   object-fit: cover;
 }
-.skillDetail h1{
+.skillDetail h1 {
   font-family: poppins;
-} 
-.skillDetail p{
+}
+.skillDetail p {
   font-family: roboto;
   font-size: 2vh;
   width: 100%;
   color: rgb(98, 98, 98);
-} 
-.skillDetail img{
+}
+.skillDetail img {
   height: 6vh;
 }
-.skillDetail li img:hover{
-  filter: invert(40%) 
-  sepia(25%) 
-  saturate(2824%) 
-  hue-rotate(206deg) 
-  brightness(103%) 
-  contrast(101%);
+.skillDetail li img:hover {
+  filter: invert(40%) sepia(25%) saturate(2824%) hue-rotate(206deg)
+    brightness(103%) contrast(101%);
 }
-.skillDetail li{
+.skillDetail li {
   list-style: none;
   display: inline-block;
   margin: 1%;
@@ -177,29 +173,29 @@ body{
   font-family: poppins;
   text-align: center;
 }
-.skillDetail h2{
+.skillDetail h2 {
   font-family: montserrat;
   font-size: 2.2vh;
   width: 100%;
   margin: 2% 0%;
   color: rgb(98, 98, 98);
 }
-.skillDetail h2 img{
+.skillDetail h2 img {
   height: 4vh;
 }
-.workExperiencesTitel{
+.workExperiencesTitel {
   text-align: center;
   font-family: poppins;
   color: rgb(0, 0, 61);
   font-size: 6vh;
 }
-.workExperiences{
+.workExperiences {
   margin: 1% 10%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
-.workExperiencesCard1{
+.workExperiencesCard1 {
   height: 40vh;
   width: 25%;
   margin: 2% 2%;
@@ -208,9 +204,9 @@ body{
   position: relative;
   box-shadow: 0 10px 30px -15px rgb(0 0 0 / 20%);
   border-radius: 1vh;
-  border: 1px solid hsla(0,0%,82.7%,.397);
+  border: 1px solid hsla(0, 0%, 82.7%, 0.397);
 }
-.workExperiencesCard1 h1{
+.workExperiencesCard1 h1 {
   line-height: 2;
   height: 15vh;
   color: white;
@@ -220,14 +216,14 @@ body{
   border-top-left-radius: 1vh;
   background-color: #003912;
 }
-.workExperiencesCard1 img{
+.workExperiencesCard1 img {
   margin: auto;
   height: 13vh;
   width: auto;
   margin-top: -15%;
   margin-bottom: 5%;
 }
-.workExperiencesCard2{
+.workExperiencesCard2 {
   height: 40vh;
   width: 25%;
   margin: 2% 2%;
@@ -236,9 +232,9 @@ body{
   position: relative;
   box-shadow: 0 10px 30px -15px rgb(0 0 0 / 20%);
   border-radius: 1vh;
-  border: 1px solid hsla(0,0%,82.7%,.397);
+  border: 1px solid hsla(0, 0%, 82.7%, 0.397);
 }
-.workExperiencesCard2 h1{
+.workExperiencesCard2 h1 {
   line-height: 2;
   height: 15vh;
   color: white;
@@ -246,17 +242,16 @@ body{
   font-size: 4vh;
   border-top-right-radius: 1vh;
   border-top-left-radius: 1vh;
-  background-color: #1E4354;
-
+  background-color: #1e4354;
 }
-.workExperiencesCard2 img{
+.workExperiencesCard2 img {
   margin: auto;
   height: 13vh;
   width: auto;
   margin-top: -15%;
   margin-bottom: 5%;
 }
-.workExperiencesCard3{
+.workExperiencesCard3 {
   height: 40vh;
   width: 25%;
   margin: 2% 2%;
@@ -265,9 +260,9 @@ body{
   position: relative;
   box-shadow: 0 10px 30px -15px rgb(0 0 0 / 20%);
   border-radius: 1vh;
-  border: 1px solid hsla(0,0%,82.7%,.397);
+  border: 1px solid hsla(0, 0%, 82.7%, 0.397);
 }
-.workExperiencesCard3 h1{
+.workExperiencesCard3 h1 {
   line-height: 2;
   height: 15vh;
   font-size: 4vh;
@@ -275,18 +270,16 @@ body{
   color: white;
   border-top-right-radius: 1vh;
   border-top-left-radius: 1vh;
-  background: linear-gradient(184deg, 
-  #1177CB -14.88%, 
-  #0b1071 101.7%);
+  background: linear-gradient(184deg, #1177cb -14.88%, #0b1071 101.7%);
 }
-.workExperiencesCard3 img{
+.workExperiencesCard3 img {
   margin: auto;
   height: 8vh;
   width: 35%;
   margin-top: -12%;
   margin-bottom: 15%;
 }
-.workExperiencesCard4{
+.workExperiencesCard4 {
   height: 40vh;
   width: 25%;
   margin: 2% 2%;
@@ -295,9 +288,9 @@ body{
   position: relative;
   box-shadow: 0 10px 30px -15px rgb(0 0 0 / 20%);
   border-radius: 1vh;
-  border: 1px solid hsla(0,0%,82.7%,.397);
+  border: 1px solid hsla(0, 0%, 82.7%, 0.397);
 }
-.workExperiencesCard4 h1{
+.workExperiencesCard4 h1 {
   line-height: 2;
   height: 15vh;
   color: white;
@@ -305,11 +298,13 @@ body{
   font-size: 4vh;
   border-top-right-radius: 1vh;
   border-top-left-radius: 1vh;
-  background: linear-gradient(101.66deg, 
-  rgba(64, 255, 94, 0.5) -14.88%, 
-  rgba(18, 196, 131, 0.5) 101.7%);
+  background: linear-gradient(
+    101.66deg,
+    rgba(64, 255, 94, 0.5) -14.88%,
+    rgba(18, 196, 131, 0.5) 101.7%
+  );
 }
-.workExperiencesCard4 img{
+.workExperiencesCard4 img {
   margin: auto;
   object-fit: cover;
   height: 15vh;
@@ -317,7 +312,7 @@ body{
   margin-top: -15%;
   margin-bottom: 5%;
 }
-.workExperiencesCard5{
+.workExperiencesCard5 {
   height: 40vh;
   width: 25%;
   margin: 2% 2%;
@@ -326,9 +321,9 @@ body{
   position: relative;
   box-shadow: 0 10px 30px -15px rgb(0 0 0 / 20%);
   border-radius: 1vh;
-  border: 1px solid hsla(0,0%,82.7%,.397);
+  border: 1px solid hsla(0, 0%, 82.7%, 0.397);
 }
-.workExperiencesCard5 h1{
+.workExperiencesCard5 h1 {
   line-height: 2;
   height: 15vh;
   font-size: 4vh;
@@ -338,14 +333,14 @@ body{
   border-top-left-radius: 1vh;
   background-color: rgb(83, 83, 83);
 }
-.workExperiencesCard5 img{
+.workExperiencesCard5 img {
   margin: auto;
   height: 13vh;
-  width: 32%;
+  width: auto;
   margin-top: -15%;
   margin-bottom: 10%;
 }
-.workExperiencesCard6{
+.workExperiencesCard6 {
   height: 45vh;
   width: 25%;
   margin: 2% 2%;
@@ -354,9 +349,9 @@ body{
   position: relative;
   box-shadow: 0 10px 30px -15px rgb(0 0 0 / 20%);
   border-radius: 1vh;
-  border: 1px solid hsla(0,0%,82.7%,.397);
+  border: 1px solid hsla(0, 0%, 82.7%, 0.397);
 }
-.workExperiencesCard6 h1{
+.workExperiencesCard6 h1 {
   line-height: 2;
   height: 15vh;
   font-size: 4vh;
@@ -364,11 +359,13 @@ body{
   font-family: roboto;
   border-top-right-radius: 1vh;
   border-top-left-radius: 1vh;
-  background: linear-gradient(101.66deg, 
-  #ababc8 -14.88%, 
-  rgba(188, 189, 212, 0.991) 101.7%);
+  background: linear-gradient(
+    101.66deg,
+    #ababc8 -14.88%,
+    rgba(188, 189, 212, 0.991) 101.7%
+  );
 }
-.workExperiencesCard6 img{
+.workExperiencesCard6 img {
   margin: auto;
   object-fit: cover;
   border-radius: 50%;
@@ -376,7 +373,7 @@ body{
   margin-top: -15%;
   margin-bottom: 10%;
 }
-.workExperiencesCard7{
+.workExperiencesCard7 {
   height: 45vh;
   width: 25%;
   margin: 2% 2%;
@@ -385,9 +382,9 @@ body{
   position: relative;
   box-shadow: 0 10px 30px -15px rgb(0 0 0 / 20%);
   border-radius: 1vh;
-  border: 1px solid hsla(0,0%,82.7%,.397);
+  border: 1px solid hsla(0, 0%, 82.7%, 0.397);
 }
-.workExperiencesCard7 h1{
+.workExperiencesCard7 h1 {
   line-height: 2;
   height: 15vh;
   font-size: 4vh;
@@ -395,11 +392,13 @@ body{
   font-family: roboto;
   border-top-right-radius: 1vh;
   border-top-left-radius: 1vh;
-  background: linear-gradient(101.66deg, 
-  rgba(64, 255, 94, 0.5) -14.88%, 
-  rgba(18, 196, 131, 0.5) 101.7%);
+  background: linear-gradient(
+    101.66deg,
+    rgba(64, 255, 94, 0.5) -14.88%,
+    rgba(18, 196, 131, 0.5) 101.7%
+  );
 }
-.workExperiencesCard7 img{
+.workExperiencesCard7 img {
   margin: auto;
   width: 40%;
   height: 15vh;
@@ -409,37 +408,51 @@ body{
   margin-top: -15%;
   margin-bottom: 10%;
 }
-.workExperiencesCard1 h2, .workExperiencesCard2 h2, 
-.workExperiencesCard3 h2, .workExperiencesCard4 h2,
-.workExperiencesCard5 h2, .workExperiencesCard6 h2, .workExperiencesCard7 h2{
+.workExperiencesCard1 h2,
+.workExperiencesCard2 h2,
+.workExperiencesCard3 h2,
+.workExperiencesCard4 h2,
+.workExperiencesCard5 h2,
+.workExperiencesCard6 h2,
+.workExperiencesCard7 h2 {
   font-size: 2.5vh;
 }
-.workExperiencesCard1 h3, .workExperiencesCard2 h3, 
-.workExperiencesCard3 h3, .workExperiencesCard4 h3,
-.workExperiencesCard5 h3, .workExperiencesCard6 h3, .workExperiencesCard7 h3{
+.workExperiencesCard1 h3,
+.workExperiencesCard2 h3,
+.workExperiencesCard3 h3,
+.workExperiencesCard4 h3,
+.workExperiencesCard5 h3,
+.workExperiencesCard6 h3,
+.workExperiencesCard7 h3 {
   font-size: 2vh;
 }
-.contactSection{
+.contactSection {
   display: flex;
   justify-content: space-evenly;
 }
-.contactSection1, .contactSection2, .contactSection3{
+.contactSection1,
+.contactSection2,
+.contactSection3 {
   width: 20%;
   height: 15vh;
   font-family: poppins;
 }
-.contactSection1 img, .contactSection2 img, .contactSection3 img{
+.contactSection1 img,
+.contactSection2 img,
+.contactSection3 img {
   height: 5vh;
   display: flex;
   margin: auto;
   margin-bottom: 5%;
 }
-.contactSection1 h1, .contactSection2 h1, .contactSection3 h1{
+.contactSection1 h1,
+.contactSection2 h1,
+.contactSection3 h1 {
   font-size: 2vh;
   text-align: center;
   color: black;
 }
-.about{
+.about {
   color: white;
   font-family: montserrat;
   width: 100%;
@@ -448,56 +461,57 @@ body{
   text-align: center;
   background-color: rgb(0, 0, 61);
 }
-.about .links{
+.about .links {
   display: flex;
   justify-content: space-around;
   margin: auto;
   margin-bottom: 2%;
 }
-.about h1{
+.about h1 {
   padding-top: 2vw;
   margin-bottom: 2%;
   font-size: 4vh;
   font-family: poppins;
 }
-.about h2{
+.about h2 {
   font-size: 2vh;
 }
-.about h2 b{
+.about h2 b {
   font-family: montserratMedium;
 }
-.about .links img{
+.about .links img {
   filter: invert(1);
 }
-.contactSectionTitel{
-text-align: center;
-font-family: poppins;
-color: rgb(0, 0, 61);
-font-size: 6vh;
-margin-top: 5%;
-margin-bottom: 5%;
+.contactSectionTitel {
+  text-align: center;
+  font-family: poppins;
+  color: rgb(0, 0, 61);
+  font-size: 6vh;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
-#submitButton{
-    font-size: 2.5vh;
-    font-family: 'poppins';
-    background-color: #5371ff;
-    color: white;
-    position: relative;
-    top: 2vw;
-    margin: auto;
-    display: flex;
-    border: none;
-  }
-@media screen and (max-width: 600px) {
+#submitButton {
+  font-size: 2.5vh;
+  font-family: "poppins";
+  background-color: #5371ff;
+  color: white;
+  position: relative;
+  top: 2vw;
+  margin: auto;
+  display: flex;
+  border: none;
+}
+
+@media screen and (max-width: 800px) {
   body {
     margin: 0%;
   }
-  .home h1{
+  .home h1 {
     font-size: 4vh;
     line-height: 6vh;
     width: 100%;
   }
-  .home{
+  .home {
     margin: 6%;
   }
   .nav {
@@ -505,7 +519,7 @@ margin-bottom: 5%;
     flex-wrap: nowrap;
     flex-direction: column;
   }
-  .navbar{
+  .navbar {
     padding: 5%;
   }
   .nav-link:hover {
@@ -530,41 +544,41 @@ margin-bottom: 5%;
   #navMenu {
     display: none;
   }
-  .home p{
+  .home p {
     font-size: 2vh;
     width: 95%;
   }
-  .homeProfilelogo img{
+  .homeProfilelogo img {
     width: 100%;
-    height: 30vh;
+    height: 40vh;
     margin-bottom: 5%;
     float: unset;
     object-fit: cover;
     position: relative;
     top: 0vh;
   }
-  .links img{
+  .links img {
     height: 5vh;
   }
-  .links{
+  .links {
     width: 100%;
     margin: 0%;
   }
-  #contactButton{
+  #contactButton {
     margin: auto;
     margin-top: 10%;
-    display: flex ;
+    display: flex;
   }
-  .skill{
+  .skill {
     position: relative;
     top: 0%;
     display: block;
     margin-top: 10vh;
   }
-  .skill li{
+  .skill li {
     margin-right: 8%;
   }
-  .skillDetail ul{
+  .skillDetail ul {
     width: 100%;
     height: 30vh;
     margin: 5% auto;
@@ -574,64 +588,244 @@ margin-bottom: 5%;
     flex-wrap: wrap;
     position: relative;
   }
-  .skillImg{
+  .skillImg {
     width: 100%;
   }
-  .skillImg img{
+  .skillImg img {
     height: auto;
     width: 100%;
     margin: 10% 0%;
     border-radius: 2vh;
     object-fit: cover;
   }
-  .workExperiences{
+  .workExperiences {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 1% 1%;
+  }
+  .workExperiencesCard1,
+  .workExperiencesCard2,
+  .workExperiencesCard3,
+  .workExperiencesCard4,
+  .workExperiencesCard5,
+  .workExperiencesCard6,
+  .workExperiencesCard7 {
+    width: 45%;
+    height: 40vh;
+    margin-bottom: 10%;
+    font-size: 1vh;
+  }
+  .workExperiencesCard1 h2,
+  .workExperiencesCard2 h2,
+  .workExperiencesCard3 h2,
+  .workExperiencesCard4 h2,
+  .workExperiencesCard5 h2,
+  .workExperiencesCard6 h2,
+  .workExperiencesCard7 h2 {
+    font-size: 3vh;
+  }
+  .workExperiencesCard1 h3,
+  .workExperiencesCard2 h3,
+  .workExperiencesCard3 h3,
+  .workExperiencesCard4 h3,
+  .workExperiencesCard5 h3,
+  .workExperiencesCard6 h3,
+  .workExperiencesCard7 h3 {
+    font-size: 2vh;
+    margin-bottom: 10%;
+  }
+  .workExperiencesTitel {
+    font-size: 4vh;
+    margin-bottom: 5vh;
+    margin-top: 85vh;
+  }
+  .about h1 {
+    font-size: 7vw;
+    margin-bottom: 8%;
+  }
+  .about .links {
+    margin-bottom: 8%;
+  }
+  .about h2 {
+    font-size: 1.5vh;
+  }
+  .contactSectionTitel {
+    margin-top: 20vw;
+    margin-bottom: 5vw;
+  }
+  .contactSection {
+    display: block;
+    justify-content: center;
+    text-align: center;
+  }
+  .contactSection1,
+  .contactSection2,
+  .contactSection3 {
+    width: 100%;
+  }
+}
+
+
+
+@media screen and (max-width: 600px) {
+  body {
+    margin: 0%;
+  }
+  .home h1 {
+    font-size: 4vh;
+    line-height: 6vh;
+    width: 100%;
+  }
+  .home {
+    margin: 6%;
+  }
+  .nav {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+  .navbar {
+    padding: 5%;
+  }
+  .nav-link:hover {
+    background-color: transparent;
+  }
+  #toggleMenu {
+    margin: -3%;
+  }
+  #toggleBar {
+    display: block;
+  }
+  .navLogo {
+    display: none;
+  }
+  .nav-link {
+    color: white !important;
+    margin-left: 0%;
+  }
+  li {
+    display: block !important;
+  }
+  #navMenu {
+    display: none;
+  }
+  .home p {
+    font-size: 2vh;
+    width: 95%;
+  }
+  .homeProfilelogo img {
+    width: 100%;
+    height: 30vh;
+    margin-bottom: 5%;
+    float: unset;
+    object-fit: cover;
+    position: relative;
+    top: 0vh;
+  }
+  .links img {
+    height: 5vh;
+  }
+  .links {
+    width: 100%;
+    margin: 0%;
+  }
+  #contactButton {
+    margin: auto;
+    margin-top: 10%;
+    display: flex;
+  }
+  .skill {
+    position: relative;
+    top: 0%;
+    display: block;
+    margin-top: 10vh;
+  }
+  .skill li {
+    margin-right: 8%;
+  }
+  .skillDetail ul {
+    width: 100%;
+    height: 30vh;
+    margin: 5% auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+  }
+  .skillImg {
+    width: 100%;
+  }
+  .skillImg img {
+    height: auto;
+    width: 100%;
+    margin: 10% 0%;
+    border-radius: 2vh;
+    object-fit: cover;
+  }
+  .workExperiences {
     display: block;
     margin: 1% 10%;
   }
-  .workExperiencesCard1, .workExperiencesCard2, 
-  .workExperiencesCard3, .workExperiencesCard4,
-  .workExperiencesCard5, .workExperiencesCard6, .workExperiencesCard7{ 
+  .workExperiencesCard1,
+  .workExperiencesCard2,
+  .workExperiencesCard3,
+  .workExperiencesCard4,
+  .workExperiencesCard5,
+  .workExperiencesCard6,
+  .workExperiencesCard7 {
     width: 95%;
     height: 45vh;
     margin-bottom: 10%;
     font-size: 1vh;
   }
-  .workExperiencesCard1 h2, .workExperiencesCard2 h2, 
-  .workExperiencesCard3 h2, .workExperiencesCard4 h2,
-  .workExperiencesCard5 h2, .workExperiencesCard6 h2, .workExperiencesCard7 h2{
+  .workExperiencesCard1 h2,
+  .workExperiencesCard2 h2,
+  .workExperiencesCard3 h2,
+  .workExperiencesCard4 h2,
+  .workExperiencesCard5 h2,
+  .workExperiencesCard6 h2,
+  .workExperiencesCard7 h2 {
     font-size: 3vh;
   }
-  .workExperiencesCard1 h3, .workExperiencesCard2 h3, 
-  .workExperiencesCard3 h3, .workExperiencesCard4 h3,
-  .workExperiencesCard5 h3, .workExperiencesCard6 h3, .workExperiencesCard7 h3{
+  .workExperiencesCard1 h3,
+  .workExperiencesCard2 h3,
+  .workExperiencesCard3 h3,
+  .workExperiencesCard4 h3,
+  .workExperiencesCard5 h3,
+  .workExperiencesCard6 h3,
+  .workExperiencesCard7 h3 {
     font-size: 2vh;
     margin-bottom: 10%;
   }
-  .workExperiencesTitel{
+  .workExperiencesTitel {
     font-size: 4vh;
     margin-bottom: 5vh;
     margin-top: 85vh;
   }
-  .about h1{
+  .about h1 {
     font-size: 7vw;
     margin-bottom: 8%;
   }
-  .about .links{
+  .about .links {
     margin-bottom: 8%;
   }
-  .about h2{
+  .about h2 {
     font-size: 1.5vh;
   }
-  .contactSectionTitel{
+  .contactSectionTitel {
     margin-top: 20vw;
     margin-bottom: 5vw;
   }
-  .contactSection{
+  .contactSection {
     display: block;
     justify-content: center;
     text-align: center;
   }
-  .contactSection1, .contactSection2, .contactSection3{
+  .contactSection1,
+  .contactSection2,
+  .contactSection3 {
     width: 100%;
   }
 }
